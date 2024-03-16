@@ -62,11 +62,7 @@ border: none;
     background-color: rgb(242, 249, 252);
     
 }
-/* .horizontal-row{
-    width: 400px;
-    height: 5px;
-    margin: 5px 10px;
-} */
+
 .horizontal-line{
     text-align: center;
    margin: 50px 45px;
@@ -93,12 +89,7 @@ border: none;
     right: 12%;
     top: 50%;
  }
- /* .container1{
-    width: 90%;
-    height: 140px;
-    margin: 30px 115px 470px 115px ;
-    text-align: center;
- } */
+ 
  .banner1{
     background-image:url("https://images.meesho.com/images/marketing/1709528659905_1200.webp") ;
     width: 1090px;
