@@ -1,0 +1,223 @@
+*{
+   margin: 0;
+   padding: 0;
+   border: border-box;
+   
+}
+.nav-logo{
+   height: 90px;
+   width: 150px;
+   margin: 0 10px;
+}
+.logo{
+   background-image: url(https://www.meesho.com/assets/svgicons/meeshoLogo.svg);
+   height: 50px;
+   width:150px;
+   margin-top: 20px;
+   padding: 5rem;
+   background-repeat: no-repeat;
+}
+.nav-search{
+   width: 400px;
+   margin:10px 40px 10px 40px ;
+   justify-content: space-evenly;
+   height: 45px;
+    display: flex;
+    border: 1px solid rgb(147, 147, 147);
+    border-radius: 6px;
+}
+.search-input{
+width: 350px;
+padding: 10 8px;
+border: none;
+}
+.search-icon{
+   margin: 8px 10px ;
+   width: 20px;
+
+}
+.vertical-line{
+    width: 2px;
+    height: 55px;
+    background: silver;
+    margin: 22px 0 0 0;
+    
+}
+.list-tag{
+   display: flex;
+   padding:  1px 40px;
+   margin: 1px 0;
+   font-size: 12px;
+}
+.list{
+   padding: 0 18px ;
+}
+
+
+.card{
+    box-sizing: border-box;
+    margin: 90px 250px;
+    border: none;
+    height: 345px;
+    background-color: rgb(242, 249, 252);
+    
+}
+/* .horizontal-row{
+    width: 400px;
+    height: 5px;
+    margin: 5px 10px;
+} */
+.horizontal-line{
+    text-align: center;
+   margin: 50px 45px;
+    position: relative;
+    
+}
+.horizontal-line:before{
+   content: "";
+   display: block;
+   width: 18%;
+   height: 1px;
+   position: absolute;
+   background: rgb(156, 23, 156);
+   left: 12%;
+   top: 50%;
+}
+.horizontal-line:after{
+    content: "";
+    display: block;
+    width: 18%;
+    height: 1px;
+    position: absolute;
+    background: rgb(156, 23, 156);
+    right: 12%;
+    top: 50%;
+ }
+ /* .container1{
+    width: 90%;
+    height: 140px;
+    margin: 30px 115px 470px 115px ;
+    text-align: center;
+ } */
+ .banner1{
+    background-image:url("https://images.meesho.com/images/marketing/1709528659905_1200.webp") ;
+    width: 1090px;
+    margin: 80px 99px;
+    height: 540px;
+    
+    
+
+ }
+ .banner2{
+    background-image:url("https://images.meesho.com/images/marketing/1709528704796_1200.webp") ;
+    width: 1090px;
+    margin: 80px 99px;
+    height: 540px;
+  
+    }
+ .banner-image{
+    margin:5em 6px;
+    display: inline-block;
+    padding: 0px;
+   
+ }
+ .banner-button{
+    margin: 12px 30px 0 30px;
+    display: flex;
+    font-size: large;
+    padding: 10px 25px;
+    background-color: rgb(121, 29, 119);
+    color: white;
+    border: none;
+    border-radius: 10px;
+ }
+ .banner3{
+   background-image: url("https://images.meesho.com/images/marketing/1709528726434_1200.webp");
+   width: 1090px;
+   margin: 80px 99px;
+  height: 540px; 
+ }
+ .banner4{
+    background-image: url("https://images.meesho.com/images/pow/downloadBannerDesktop_1050.webp");
+    width: 1090px;
+    margin: 80px 99px;
+   height: 540px; 
+ }
+ .banner-text{
+    float: right;
+    text-align: right;
+    margin: 80px 50px 0 50px;
+    line-height: 5%;
+   color: rgb(34, 142, 243);
+    
+   
+ }
+ .text-heading{
+    font-size: 48px;
+    font-weight: bold;
+    padding: 40em 0;
+    margin: 50px 0;
+    color: rgb(169, 47, 171);
+ }
+ .banner5{
+   background-image: url("https://images.meesho.com/images/pow/supplyBannerDesktop_1106.webp");
+   width: 1090px;
+   margin: 50px 99px;
+  height: 270px; 
+}
+.banner5-text{
+   color: white;
+   margin: 30px 70px;
+   display: inline-block;
+   flex-direction: row;
+   line-height: 10px;
+   
+}
+.banner5-text2{
+   margin-top: 29px;
+   display: flex;
+   flex-direction: row;
+   font-size: 19px;
+   
+}
+
+.vertical-line2{
+   width: 2px;
+   height: 20px;
+   background: silver;
+   margin: 0px 30px;
+
+}
+.bjZSWs {
+   height: 20px;
+   width: 20px;
+   cursor: inherit;
+}
+.text{
+ padding: 5px 10px;
+   }
+   .footer{
+      margin: 60px 0 0 ;
+      padding: 60px 120px;
+      background-color: rgb(231, 246, 248);
+   }
+   ul{
+      list-style: none;
+      margin: 0 2px;
+      line-height: 2.5em;
+      padding: 0 1px;
+   }
+   li{
+   
+      font-size: 20px;
+   }
+   img{
+      padding: 30px 2px;
+   }
+   .heading1{
+      margin: 30px 0 0;
+      font-size: 18px;
+   }
+   .heading2{
+      font-size: 14px;
+   }
